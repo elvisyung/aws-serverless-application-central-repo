@@ -1,10 +1,10 @@
 # AWS Serverless Application Central Repository
 
-The frontend of this application was developed using React (Typescript) while the backend was developed using Typescript. 
+The application's front end uses React with TypeScript, paired with a TypeScript backend.
 
-The CI/CD pipeline was also developed using Typescript and intends to stage stacks for testing, production and deployment while catching bugs during different builds with unit tests written in Jest integrated - units tests for lambda functions and SNS topics were integrated as well. 
+The CI/CD pipeline, built with TypeScript, stages stacks for testing, production, and deployment while running Jest unit tests to detect issues. These tests cover Lambda functions and SNS topics.
 
-This project also utilises Cloudwatch to monitor stacks for events triggering API endpoints, which generates alarms to an SNS topic and activates a webhook Lambda to send HTTP calls to Slack - alerting developers of real-time issues.  
+This project employs CloudWatch to monitor stacks for API-triggered events, generating alerts sent to an SNS topic. Additionally, a webhook Lambda notifies developers of real-time issues via Slack.
 
 AWS Serverless Application Repo Links 
 
